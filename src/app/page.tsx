@@ -1,33 +1,27 @@
 
 
+import Image from 'next/image'
+import { Experience } from './components/experience/experience'
+import { Header } from './components/header/header'
+import { Info } from './components/information/information'
+
+import "./styles/home.scss"
+import { EmailIcon } from './components/icons/email-icon'
+import { SocialBtns } from './components/social-btns/social-btns'
+
 export default function Home() {
   return (
-    <main>
-      <header/>
-      
-      <div className="experience">
-        <h3>experience</h3>
-        <p>Enthusiast of web technologies for 2 years, I have been improving my skills in HTML, CSS, JavaScript, Angular and React through passionate personal projects."</p>
-        <div className="experience-time">
-          
-        </div>
-        <div className="infos">
-          <h3>languages</h3>
-          <div className="languages-info">
-            <span>EN - fluente</span>
-            <span>PT-BR Native Speaker</span>
-          </div>
-          <h3>Education</h3>
-          <div className="educational-info"></div>
-          <span>🎓</span>
-          <span>EAD - Superior Technology Course in Systems Analysis and Development - Uniftec University</span>
-        </div>
+    <main className="container">
+        <Header/>
+        <Experience/>
+        <Info/>
         <div className="buttons">
-          <div className="social"></div>
+          <SocialBtns/>
+          <a className="btn-primary" href="mailto:raissa.paiva.flores@hotmail.com">
+            contact me
+            <EmailIcon/>
+          </a>
         </div>
-        <button>contact me</button>
-      </div>
-
     </main>
   )
 }
