@@ -8,7 +8,7 @@ const inter = Poppins({
 
 export const metadata = {
   title: 'Raíssa Paiva',
-  description: 'Raíssa Paiva is a software engineer...',
+  description: 'Raíssa Paiva é engenheira de software...',
 }
 
 export default function RootLayout({
