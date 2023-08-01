@@ -4,15 +4,15 @@ import "./information.scss"
 export function Info(){
     return(
         <div className="infos">
-        <SectionTitle text="Languages"/>
+        <SectionTitle text="Línguas"/>
         <div className="languages-info">
-          <span> EN - Improving English for greater professional impact.</span>
-          <span>PT-BR - Native Speaker</span>
+          <span> EN - Aprimorando o inglês para maior impacto profissional..</span>
+          <span>PT-BR - Falante nativo</span>
         </div>
-        <SectionTitle text="Education"/>
+        <SectionTitle text="Educação"/>
         <div className="educational-info">
           <span>🎓</span>
-          <span>EAD - Higher Technology Course in Systems Analysis and Development - uniftec university - Polo Gravataí/RS </span>
+          <span>EAD - Curso Superior de Tecnologia em Análise e Desenvolvimento de Sistemas - uniftec - Polo Gravataí/RS </span>
         </div>
       </div>
     )
