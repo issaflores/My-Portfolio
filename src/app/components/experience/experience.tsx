@@ -8,8 +8,8 @@ import { Skill } from "../skill/skill"
 export function Experience(){
     return(
         <div className="experience">
-          <SectionTitle text="Experience"/>
-          <p>During the last year, I focused on studying HTML, CSS and JavaScript, achieving proficiency in these languages. I'm currently specializing in React and Angular to create high-performance web applications. I invite you to explore my portfolio to learn about my work and how I can add value to your project. Let's elevate digital experiences together!</p>
+          <SectionTitle text="Experiência"/>
+          <p>Durante o último ano, foquei no estudo de HTML, CSS e JavaScript, obtendo proficiência nessas linguagens. Atualmente estou me especializando em React e Angular para criar aplicações web de alto desempenho. E como posso agregar valor ao seu projeto? Vamos elevar as experiências digitais juntos!</p>
           <div className="experience-time">
             <Skill image="/react.png" measure={1} years="1 years"/>
             <Skill image="/ts.png" measure={1} years="1 years"/>
